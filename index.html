@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minhas Skills - Arthur Mii</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+  <!-- Header -->
+  <header class="fixed w-full bg-gray-900/80 backdrop-blur-md shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-400">Arthur Mii</h1>
+      <nav class="space-x-6">
+        <a href="#powerbi" class="hover:text-yellow-400">Power BI</a>
+        <a href="#python" class="hover:text-yellow-400">Python</a>
+        <a href="#sql" class="hover:text-yellow-400">SQL</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">Transformando Dados em Insights</h2>
+    <p class="text-lg text-gray-300 max-w-2xl mb-8">Especialista em Power BI, Python e SQL, criando soluções analíticas para tomada de decisão com clareza e impacto.</p>
+    <a href="#powerbi" class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition">Ver Projetos</a>
+  </section>
+
+  <!-- Power BI Section -->
+  <section id="powerbi" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6 text-yellow-400">Power BI</h3>
+      <p class="text-gray-300 mb-8">Dashboards interativos que transformam dados brutos em histórias visuais impactantes.</p>
+      <!-- Embed Power BI -->
+      <div class="w-full h-[600px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+        <!-- Substitua o src pelo link de incorporação do seu dashboard -->
+        <iframe title="Dashboard Power BI" width="100%" height="100%" src="https://app.powerbi.com/view?r=EXEMPLO" frameborder="0" allowFullScreen="true"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Python Section -->
+  <section id="python" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6 text-green-400">Python</h3>
+      <p class="text-gray-300 mb-8">Automatização de processos, análise de dados e machine learning para insights inteligentes.</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Automação</h4>
+          <p class="text-gray-400">Scripts para integração de sistemas, ETL e coleta de dados.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Análise de Dados</h4>
+          <p class="text-gray-400">Uso de Pandas, NumPy e Matplotlib para explorar e visualizar dados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SQL Section -->
+  <section id="sql" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6 text-blue-400">SQL</h3>
+      <p class="text-gray-300 mb-8">Consultas otimizadas para manipulação e análise de grandes volumes de dados.</p>
+      <ul class="list-disc list-inside space-y-2 text-gray-400">
+        <li>Modelagem de banco de dados relacional</li>
+        <li>Criação de procedures, triggers e views</li>
+        <li>Consultas complexas para relatórios estratégicos</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-950 text-center text-gray-500">
+    © 2025 Arthur Mii - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
